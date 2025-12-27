@@ -196,5 +196,31 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+//theme logic
 
+
+// ================================
+// Dark Mode Toggle (GLOBAL)
+// ================================
+const themeBtn = document.getElementById("themeToggle");
+
+if (themeBtn) {
+  // Set correct icon on load
+  if (localStorage.getItem("theme") === "dark") {
+    themeBtn.textContent = "☀️";
+  }
+
+  themeBtn.addEventListener("click", () => {
+    const html = document.documentElement;
+    html.classList.toggle("dark");
+
+    if (html.classList.contains("dark")) {
+      localStorage.setItem("theme", "dark");
+      themeBtn.textContent = "☀️";
+    } else {
+      localStorage.setItem("theme", "light");
+      themeBtn.textContent = "🌙";
+    }
+  });
+}
 

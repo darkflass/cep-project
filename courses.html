@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courses - SpeakEasy</title>
+    <script>
+  (function () {
+    const theme = localStorage.getItem("theme");
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    }
+  })();
+</script>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,6 +32,8 @@
                 <li><a href="lessons.html">Lesson</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <button id="themeToggle" class="theme-toggle">🌙</button>
+
             </ul>
         </div>
     </nav>
