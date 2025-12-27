@@ -1486,3 +1486,53 @@ body {
     }
 }
 
+/* ================================
+   Dark mode visual fixes
+================================ */
+
+.dark .hero-title,
+.dark .features h2,
+.dark .section-title,
+.dark .video-info h3,
+.dark .lesson-title,
+.dark .video-quiz-question,
+.dark .quiz-question,
+.dark .question-text,
+.dark .about-card h2,
+.dark .contact-card h2 {
+  color: var(--primary);
+}
+
+/* Light boxes in dark mode */
+.dark .options label,
+.dark .quiz-option,
+.dark .video-quiz-option,
+.dark .email-info,
+.dark .quiz-topic {
+  background: #020617;
+  color: var(--text-main);
+}
+
+/* Hover states in dark mode */
+.dark .options label:hover,
+.dark .quiz-option:hover:not(:disabled),
+.dark .video-quiz-option:hover:not(:disabled),
+.dark .email-link:hover {
+  background: #0f172a;
+}
+
+/* Borders */
+.dark .about-list li {
+  border-color: #1e293b;
+}
+
+/* Footer */
+.dark .footer {
+  background: #020617;
+}
+
+/* Back + next/prev buttons */
+.dark .back-button,
+.dark .lesson-nav-btn {
+  background: linear-gradient(135deg, #1e293b, #020617);
+}
