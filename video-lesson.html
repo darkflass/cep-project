@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Lesson - SpeakEasy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">SpeakEasy</div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="lessons.html">Lesson</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="video-lesson-section">
+            <!-- Back Button -->
+            <a href="courses.html" class="back-button">← Back to Courses</a>
+            
+            <!-- Video Player Section -->
+            <div class="video-player-container">
+                <h1 class="lesson-title" id="lessonTitle">Loading Lesson...</h1>
+                <p class="lesson-description" id="lessonDescription"></p>
+                
+                <div class="video-player-wrapper">
+                    <div class="video-wrapper">
+                        <iframe 
+                            id="videoPlayer"
+                            src="" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen
+                            title="Video Lesson">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quiz Section -->
+            <div class="video-quiz-section">
+                <h2 class="section-title">Test What You Learned! 🧠</h2>
+                <p class="section-intro">Answer these 3 questions about the video!</p>
+                
+                <div class="video-quizzes-container" id="videoQuizzes"></div>
+                
+                <!-- Quiz Results -->
+                <div id="videoQuizResults" class="video-quiz-results hidden"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 SpeakEasy. Made with ❤️ for kids everywhere!</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="video-quiz.js"></script>
+</body>
+</html>
+

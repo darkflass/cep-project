@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lessons - SpeakEasy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">SpeakEasy</div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="lessons.html" class="active">Lesson</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section class="lessons-section">
+            <h1 class="section-title">English Lessons & Quizzes 📚</h1>
+            <p class="section-intro">Choose your level and start learning! Each level has fun quizzes to help you practice! 🎯</p>
+
+            <!-- Level Tabs -->
+            <div class="level-tabs">
+                <button class="level-tab active" data-level="easy">Easy ⭐</button>
+                <button class="level-tab" data-level="intermediate">Intermediate ⭐⭐</button>
+                <button class="level-tab" data-level="hard">Hard ⭐⭐⭐</button>
+            </div>
+
+            <!-- Progress Indicator -->
+            <div class="progress-container">
+                <div class="progress-info">
+                    <span id="progressText">Score: <span id="score">0</span> / <span id="total">0</span></span>
+                    <span class="stars" id="starsDisplay">⭐⭐⭐</span>
+                </div>
+            </div>
+
+            <!-- Easy Level Quizzes -->
+            <div class="level-content active" id="easy-level">
+                <div class="quizzes-container" id="easy-quizzes"></div>
+            </div>
+
+            <!-- Intermediate Level Quizzes -->
+            <div class="level-content" id="intermediate-level">
+                <div class="quizzes-container" id="intermediate-quizzes"></div>
+            </div>
+
+            <!-- Hard Level Quizzes -->
+            <div class="level-content" id="hard-level">
+                <div class="quizzes-container" id="hard-quizzes"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 SpeakEasy. Made with ❤️ for kids everywhere!</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="lessons.js"></script>
+</body>
+</html>
+
