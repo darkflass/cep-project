@@ -8,7 +8,7 @@ const videoLessons = {
     1: {
         title: "Lesson 1: Hello and Greetings 👋",
         description: "Learn how to say hello, goodbye, and greet your friends!",
-        videoId: "dQw4w9WgXcQ", // YouTube video ID (placeholder)
+        videoSrc: "videos/lesson1.mp4" , // YouTube video ID (placeholder)
         quizzes: [
             {
                 id: 1,
@@ -33,7 +33,7 @@ const videoLessons = {
     2: {
         title: "Lesson 2: Colors 🌈",
         description: "Discover all the beautiful colors around you!",
-        videoId: "dQw4w9WgXcQ",
+        videoSrc: "videos/lesson2.mp4",
         quizzes: [
             {
                 id: 1,
@@ -58,7 +58,7 @@ const videoLessons = {
     3: {
         title: "Lesson 3: Numbers 🔢",
         description: "Count from 1 to 10 and have fun with numbers!",
-        videoId: "dQw4w9WgXcQ",
+        videoSrc: "videos/lesson3.mp4",
         quizzes: [
             {
                 id: 1,
@@ -83,7 +83,7 @@ const videoLessons = {
     4: {
         title: "Lesson 4: Animals 🐶",
         description: "Meet all the amazing animals and learn their names!",
-        videoId: "dQw4w9WgXcQ",
+        videoSrc: "videos/lesson4.mp4",
         quizzes: [
             {
                 id: 1,
@@ -108,7 +108,7 @@ const videoLessons = {
     5: {
         title: "Lesson 5: Family 👨‍👩‍👧‍👦",
         description: "Learn words for mom, dad, sister, brother, and more!",
-        videoId: "dQw4w9WgXcQ",
+        videoSrc: "videos/lesson5.mp4",
         quizzes: [
             {
                 id: 1,
@@ -133,7 +133,7 @@ const videoLessons = {
     6: {
         title: "Lesson 6: Food 🍎",
         description: "Yummy foods and how to say their names in English!",
-        videoId: "dQw4w9WgXcQ",
+        videoSrc: "videos/lesson6.mp4",
         quizzes: [
             {
                 id: 1,
@@ -158,7 +158,7 @@ const videoLessons = {
     7: {
         title: "Lesson 7: Body Parts 👀",
         description: "Learn about your eyes, nose, mouth, and more!",
-        videoId: "dQw4w9WgXcQ",
+        videoSrc: "videos/lesson7.mp4",
         quizzes: [
             {
                 id: 1,
@@ -183,7 +183,7 @@ const videoLessons = {
     8: {
         title: "Lesson 8: Actions 🏃",
         description: "Run, jump, dance! Learn action words!",
-        videoId: "dQw4w9WgXcQ",
+        videoSrc: "videos/lesson8.mp4",
         quizzes: [
             {
                 id: 1,
@@ -208,7 +208,7 @@ const videoLessons = {
     9: {
         title: "Lesson 9: Weather ☀️",
         description: "Sunny, rainy, or snowy? Learn weather words!",
-        videoId: "dQw4w9WgXcQ",
+        videoSrc: "videos/lesson9.mp4",
         quizzes: [
             {
                 id: 1,
@@ -233,7 +233,7 @@ const videoLessons = {
     10: {
         title: "Lesson 10: Simple Sentences 💬",
         description: "Put words together to make sentences!",
-        videoId: "dQw4w9WgXcQ",
+        videoSrc: "videos/lesson10.mp4",
         quizzes: [
             {
                 id: 1,
@@ -282,11 +282,37 @@ function loadVideoLesson(lessonId) {
     document.getElementById('lessonTitle').textContent = lesson.title;
     document.getElementById('lessonDescription').textContent = lesson.description;
     
+
+    
     // Load video
     const videoPlayer = document.getElementById('videoPlayer');
-    videoPlayer.src = `https://www.youtube.com/embed/${lesson.videoId}?autoplay=0`;
+    videoPlayer.src = lesson.videoSrc;
     videoPlayer.title = lesson.title;
     
+    // Button logic
+    const totalLessons = Object.keys(videoLessons).length;
+
+    const prevBtn = document.getElementById("prevLessonBtn");
+    const nextBtn = document.getElementById("nextLessonBtn");
+
+    const current = parseInt(lessonId);
+
+    // Previous button
+    if (current > 1) {
+        prevBtn.href = `video-lesson.html?id=${current - 1}`;
+        prevBtn.style.display = "inline-block";
+    } else {
+        prevBtn.style.display = "none";
+    }
+
+    // Next button
+    if (current < totalLessons) {
+        nextBtn.href = `video-lesson.html?id=${current + 1}`;
+        nextBtn.style.display = "inline-block";
+    } else {
+        nextBtn.style.display = "none";
+    }
+
     // Render quizzes
     renderQuizzes(lesson.quizzes);
 }

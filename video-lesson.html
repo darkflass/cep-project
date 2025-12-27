@@ -39,14 +39,13 @@
                 
                 <div class="video-player-wrapper">
                     <div class="video-wrapper">
-                        <iframe 
+                        <video 
                             id="videoPlayer"
-                            src="" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen
-                            title="Video Lesson">
-                        </iframe>
+                            controls 
+                            preload="metadata"
+                            style="width:100%; border-radius:15px;">
+                        </video>
+
                     </div>
                 </div>
             </div>
@@ -60,6 +59,11 @@
                 
                 <!-- Quiz Results -->
                 <div id="videoQuizResults" class="video-quiz-results hidden"></div>
+                <div class="lesson-navigation" id="lessonNavigation">
+                    <a id="prevLessonBtn" class="lesson-nav-btn">⬅ Previous Lesson</a>
+                    <a id="nextLessonBtn" class="lesson-nav-btn">Next Lesson ➡</a>
+                </div>
+
             </div>
         </section>
     </main>
