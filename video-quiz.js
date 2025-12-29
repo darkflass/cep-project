@@ -8,7 +8,7 @@ const videoLessons = {
     1: {
         title: "Lesson 1: Hello and Greetings 👋",
         description: "Learn how to say hello, goodbye, and greet your friends!",
-        videoSrc: "videos/lesson1.mp4" , // YouTube video ID (placeholder)
+        videoSrc: "https://player.vimeo.com/video/1149690739" , // YouTube video ID (placeholder)
         quizzes: [
             {
                 id: 1,
@@ -33,7 +33,7 @@ const videoLessons = {
     2: {
         title: "Lesson 2: Colors 🌈",
         description: "Discover all the beautiful colors around you!",
-        videoSrc: "videos/lesson2.mp4",
+        videoSrc: "placeholder change with video links",
         quizzes: [
             {
                 id: 1,
@@ -58,7 +58,7 @@ const videoLessons = {
     3: {
         title: "Lesson 3: Numbers 🔢",
         description: "Count from 1 to 10 and have fun with numbers!",
-        videoSrc: "videos/lesson3.mp4",
+        videoSrc: "placeholder change with video links",
         quizzes: [
             {
                 id: 1,
@@ -83,7 +83,7 @@ const videoLessons = {
     4: {
         title: "Lesson 4: Animals 🐶",
         description: "Meet all the amazing animals and learn their names!",
-        videoSrc: "videos/lesson4.mp4",
+        videoSrc: "placeholder change with video links",
         quizzes: [
             {
                 id: 1,
@@ -108,7 +108,7 @@ const videoLessons = {
     5: {
         title: "Lesson 5: Family 👨‍👩‍👧‍👦",
         description: "Learn words for mom, dad, sister, brother, and more!",
-        videoSrc: "videos/lesson5.mp4",
+        videoSrc: "placeholder change with video links",
         quizzes: [
             {
                 id: 1,
@@ -133,7 +133,7 @@ const videoLessons = {
     6: {
         title: "Lesson 6: Food 🍎",
         description: "Yummy foods and how to say their names in English!",
-        videoSrc: "videos/lesson6.mp4",
+        videoSrc: "placeholder change with video links",
         quizzes: [
             {
                 id: 1,
@@ -158,7 +158,7 @@ const videoLessons = {
     7: {
         title: "Lesson 7: Body Parts 👀",
         description: "Learn about your eyes, nose, mouth, and more!",
-        videoSrc: "videos/lesson7.mp4",
+        videoSrc: "placeholder change with video links",
         quizzes: [
             {
                 id: 1,
@@ -183,7 +183,7 @@ const videoLessons = {
     8: {
         title: "Lesson 8: Actions 🏃",
         description: "Run, jump, dance! Learn action words!",
-        videoSrc: "videos/lesson8.mp4",
+        videoSrc: "placeholder change with video links",
         quizzes: [
             {
                 id: 1,
@@ -208,7 +208,7 @@ const videoLessons = {
     9: {
         title: "Lesson 9: Weather ☀️",
         description: "Sunny, rainy, or snowy? Learn weather words!",
-        videoSrc: "videos/lesson9.mp4",
+        videoSrc: "placeholder change with video links",
         quizzes: [
             {
                 id: 1,
@@ -233,7 +233,7 @@ const videoLessons = {
     10: {
         title: "Lesson 10: Simple Sentences 💬",
         description: "Put words together to make sentences!",
-        videoSrc: "videos/lesson10.mp4",
+        videoSrc: "placeholder change with video links",
         quizzes: [
             {
                 id: 1,
@@ -286,8 +286,8 @@ function loadVideoLesson(lessonId) {
     
     // Load video
     const videoPlayer = document.getElementById('videoPlayer');
-    videoPlayer.src = lesson.videoSrc;
-    videoPlayer.title = lesson.title;
+    videoPlayer.src = lesson.videoSrc + "?autoplay=0&title=0&byline=0&portrait=0";
+
     
     // Button logic
     const totalLessons = Object.keys(videoLessons).length;
