@@ -8,253 +8,355 @@ const videoLessons = {
     1: {
         title: "Lesson 1: Hello and Greetings 👋",
         description: "Learn how to say hello, goodbye, and greet your friends!",
-        videoSrc: "https://player.vimeo.com/video/1149690739" , // YouTube video ID (placeholder)
+        videoSrc: "https://player.vimeo.com/video/1160610297" , // YouTube video ID (placeholder)
         quizzes: [
             {
-                id: 1,
-                question: "How do you say hello in the morning? 🌅",
-                options: ["Good morning", "Good night", "Goodbye", "Thank you"],
-                correct: 0
-            },
-            {
-                id: 2,
-                question: "What do you say when you meet someone? 👋",
-                options: ["Goodbye", "Hello", "Thank you", "Sorry"],
-                correct: 1
-            },
-            {
-                id: 3,
-                question: "What do you say when you leave? 👋",
-                options: ["Hello", "Good morning", "Goodbye", "Please"],
-                correct: 2
-            }
+    id: 1,
+    question: "What do we say when we meet someone?",
+    options: ["Bye", "Hello", "Night"],
+    correct: 1
+},
+{
+    id: 2,
+    question: "What do we say in the morning?",
+    options: ["Good night", "Good morning", "Bye"],
+    correct: 1
+},
+{
+    id: 3,
+    question: "“Hello, I am Sam.” is used for:",
+    options: ["Saying bye", "Introducing yourself", "Asking a question"],
+    correct: 1
+},
+{
+    id: 4,
+    question: "What do we say when we leave?",
+    options: ["Hello", "Hi", "Bye"],
+    correct: 2
+}
+
         ]
     },
     2: {
-        title: "Lesson 2: Colors 🌈",
+        title: "Lesson 2: Framing Sentences",
         description: "Discover all the beautiful colors around you!",
-        videoSrc: "placeholder change with video links",
+        videoSrc: "https://player.vimeo.com/video/1160612965",
         quizzes: [
             {
-                id: 1,
-                question: "What color is an apple? 🍎",
-                options: ["Blue", "Red", "Green", "Yellow"],
-                correct: 1
-            },
-            {
-                id: 2,
-                question: "What color is the sky? ☁️",
-                options: ["Red", "Green", "Blue", "Yellow"],
-                correct: 2
-            },
-            {
-                id: 3,
-                question: "What color is the sun? ☀️",
-                options: ["Blue", "Green", "Yellow", "Purple"],
-                correct: 2
-            }
+    id: 1,
+    question: "Choose the correct sentence:",
+    options: ["I student am", "I am a student", "Am I student"],
+    correct: 1
+},
+{
+    id: 2,
+    question: "Which sentence is correct?",
+    options: ["Name my Vivan is", "My name is Vivan", "Name is my Vivan"],
+    correct: 1
+},
+{
+    id: 3,
+    question: "“My ice-cream is melting.” is a:",
+    options: ["Question", "Sentence", "Word"],
+    correct: 1
+},
+{
+    id: 4,
+    question: "Which one is a sentence?",
+    options: ["watching movie", "I watch movie.", "Movie watch"],
+    correct: 1
+}
+
         ]
     },
     3: {
-        title: "Lesson 3: Numbers 🔢",
+        title: "Lesson 3: Colours & Naming Things",
         description: "Count from 1 to 10 and have fun with numbers!",
         videoSrc: "placeholder change with video links",
         quizzes: [
             {
-                id: 1,
-                question: "How many fingers do you have on one hand? ✋",
-                options: ["Three", "Four", "Five", "Six"],
-                correct: 2
-            },
-            {
-                id: 2,
-                question: "What comes after number 5? 🔢",
-                options: ["Four", "Six", "Seven", "Eight"],
-                correct: 1
-            },
-            {
-                id: 3,
-                question: "How many eyes do you have? 👀",
-                options: ["One", "Two", "Three", "Four"],
-                correct: 1
-            }
+    id: 1,
+    question: "What colour is an apple?",
+    options: ["Blue", "Red", "Black"],
+    correct: 1
+},
+{
+    id: 2,
+    question: "Choose the correct sentence:",
+    options: ["The car is black.", "Car black is", "Black is car"],
+    correct: 0
+},
+{
+    id: 3,
+    question: "Which word is a colour?",
+    options: ["Bag", "Yellow", "Ball"],
+    correct: 1
+},
+{
+    id: 4,
+    question: "“Blue bag” means:",
+    options: ["Bag is blue", "Bag is big", "Bag is small"],
+    correct: 0
+}
+
         ]
     },
     4: {
-        title: "Lesson 4: Animals 🐶",
+        title: "Lesson 4: Numbers & Simple Sentences",
         description: "Meet all the amazing animals and learn their names!",
         videoSrc: "placeholder change with video links",
         quizzes: [
             {
-                id: 1,
-                question: "What do you call a baby dog? 🐕",
-                options: ["Kitten", "Puppy", "Cub", "Chick"],
-                correct: 1
-            },
-            {
-                id: 2,
-                question: "What sound does a cat make? 🐱",
-                options: ["Woof", "Meow", "Moo", "Quack"],
-                correct: 1
-            },
-            {
-                id: 3,
-                question: "Which animal says 'Moo'? 🐄",
-                options: ["Dog", "Cat", "Cow", "Duck"],
-                correct: 2
-            }
+    id: 1,
+    question: "Which number comes after Four?",
+    options: ["One", "Five", "Four"],
+    correct: 1
+},
+{
+    id: 2,
+    question: "Choose the correct sentence:",
+    options: ["I have two apples.", "I two have apples.", "I apples two."],
+    correct: 0
+},
+{
+    id: 3,
+    question: "How many books? 🎒🎒📚📚📚",
+    options: ["Two", "Three", "Four"],
+    correct: 1
+},
+{
+    id: 4,
+    question: "“Twelve pens” shows:",
+    options: ["Colour", "Number", "Action"],
+    correct: 1
+}
+
         ]
     },
     5: {
-        title: "Lesson 5: Family 👨‍👩‍👧‍👦",
+        title: "Lesson 5: Is / Am / Are",
         description: "Learn words for mom, dad, sister, brother, and more!",
         videoSrc: "placeholder change with video links",
         quizzes: [
             {
-                id: 1,
-                question: "What do you call your mother's sister? 👩",
-                options: ["Aunt", "Uncle", "Cousin", "Grandma"],
-                correct: 0
-            },
-            {
-                id: 2,
-                question: "What do you call your father's father? 👴",
-                options: ["Uncle", "Grandpa", "Cousin", "Brother"],
-                correct: 1
-            },
-            {
-                id: 3,
-                question: "What do you call your mother's mother? 👵",
-                options: ["Aunt", "Grandma", "Sister", "Cousin"],
-                correct: 1
-            }
+    id: 1,
+    question: "I _ a student.",
+    options: ["is", "am", "are"],
+    correct: 1
+},
+{
+    id: 2,
+    question: "She _ my friend.",
+    options: ["am", "are", "is"],
+    correct: 2
+},
+{
+    id: 3,
+    question: "They _ dancing.",
+    options: ["is", "am", "are"],
+    correct: 2
+},
+{
+    id: 4,
+    question: "Which sentence is correct?",
+    options: ["We is learning", "We am learning", "We are learning"],
+    correct: 2
+}
+
         ]
     },
     6: {
-        title: "Lesson 6: Food 🍎",
+        title: "Lesson 6: Daily Action Words (Verbs)",
         description: "Yummy foods and how to say their names in English!",
         videoSrc: "placeholder change with video links",
         quizzes: [
             {
-                id: 1,
-                question: "What do you eat for breakfast? 🥐",
-                options: ["Dinner", "Breakfast", "Lunch", "Snack"],
-                correct: 1
-            },
-            {
-                id: 2,
-                question: "Which fruit is red and round? 🍎",
-                options: ["Banana", "Apple", "Orange", "Grape"],
-                correct: 1
-            },
-            {
-                id: 3,
-                question: "What do you drink when you're thirsty? 💧",
-                options: ["Food", "Water", "Toy", "Book"],
-                correct: 1
-            }
+    id: 1,
+    question: "Which word shows action?",
+    options: ["Ball", "Eat", "Red"],
+    correct: 1
+},
+{
+    id: 2,
+    question: "Choose the correct sentence:",
+    options: ["I food eat", "I eat food.", "Eat I food"],
+    correct: 1
+},
+{
+    id: 3,
+    question: "What do we do at night?",
+    options: ["Play cricket", "Sleep", "Eat lunch"],
+    correct: 1
+},
+{
+    id: 4,
+    question: "“Drink” means:",
+    options: ["To eat", "To sleep", "To have water"],
+    correct: 2
+}
+
         ]
     },
     7: {
-        title: "Lesson 7: Body Parts 👀",
+        title: "Lesson 7: Classroom English",
         description: "Learn about your eyes, nose, mouth, and more!",
         videoSrc: "placeholder change with video links",
         quizzes: [
             {
-                id: 1,
-                question: "What do you use to see? 👀",
-                options: ["Ears", "Eyes", "Nose", "Mouth"],
-                correct: 1
-            },
-            {
-                id: 2,
-                question: "What do you use to smell? 👃",
-                options: ["Eyes", "Ears", "Nose", "Hands"],
-                correct: 2
-            },
-            {
-                id: 3,
-                question: "How many hands do you have? ✋",
-                options: ["One", "Two", "Three", "Four"],
-                correct: 1
-            }
+    id: 1,
+    question: "Teacher says: “_ your book.”",
+    options: ["Close", "Open", "Throw"],
+    correct: 1
+},
+{
+    id: 2,
+    question: "What do students do when teacher says “Sit down”?",
+    options: ["Stand", "Sit", "Run"],
+    correct: 1
+},
+{
+    id: 3,
+    question: "“This is my book.” is used in:",
+    options: ["Playground", "Classroom", "Market"],
+    correct: 1
+},
+{
+    id: 4,
+    question: "Which one of these does not belong inside a classroom?",
+    options: ["Book", "Bench", "Ball"],
+    correct: 2
+}
+
         ]
     },
     8: {
-        title: "Lesson 8: Actions 🏃",
+        title: "Lesson 8: Describing Things (Adjectives)",
         description: "Run, jump, dance! Learn action words!",
         videoSrc: "placeholder change with video links",
         quizzes: [
             {
-                id: 1,
-                question: "What do you do with a book? 📚",
-                options: ["Eat", "Read", "Sleep", "Run"],
-                correct: 1
-            },
-            {
-                id: 2,
-                question: "What do you do when you're tired? 😴",
-                options: ["Eat", "Play", "Sleep", "Run"],
-                correct: 2
-            },
-            {
-                id: 3,
-                question: "What do you do with food? 🍽️",
-                options: ["Sleep", "Eat", "Run", "Read"],
-                correct: 1
-            }
+    id: 1,
+    question: "Which word describes size?",
+    options: ["Red", "Big", "Water"],
+    correct: 1
+},
+{
+    id: 2,
+    question: "You hold ice in your hand. How does it feel?",
+    options: ["Hot", "Cold", "Heavy"],
+    correct: 1
+},
+{
+    id: 3,
+    question: "Which word describes feeling?",
+    options: ["Happy", "Book", "Ball"],
+    correct: 0
+},
+{
+    id: 4,
+    question: "“Small” is opposite of:",
+    options: ["Big", "Red", "Happy"],
+    correct: 0
+}
+
         ]
     },
     9: {
-        title: "Lesson 9: Weather ☀️",
+        title: "Lesson 9: Feelings & Polite Words",
         description: "Sunny, rainy, or snowy? Learn weather words!",
-        videoSrc: "placeholder change with video links",
+        videoSrc: "https://player.vimeo.com/video/1160613110",
         quizzes: [
             {
-                id: 1,
-                question: "What do you see in the sky during the day? ☀️",
-                options: ["Moon", "Stars", "Sun", "Clouds"],
-                correct: 2
-            },
-            {
-                id: 2,
-                question: "What falls from the sky when it rains? 🌧️",
-                options: ["Snow", "Rain", "Sun", "Wind"],
-                correct: 1
-            },
-            {
-                id: 3,
-                question: "What do you wear when it's cold? 🧥",
-                options: ["Shorts", "Coat", "Swimsuit", "T-shirt"],
-                correct: 1
-            }
+    id: 1,
+    question: "Which word shows feeling?",
+    options: ["Happy", "Table", "Blue"],
+    correct: 0
+},
+{
+    id: 2,
+    question: "What do we say to be polite?",
+    options: ["Give", "Please", "Fast"],
+    correct: 1
+},
+{
+    id: 3,
+    question: "What do we say after help?",
+    options: ["Sorry", "Thank you", "Hello"],
+    correct: 1
+},
+{
+    id: 4,
+    question: "“I am sad” shows:",
+    options: ["Colour", "Feeling", "Action"],
+    correct: 1
+}
+
         ]
     },
     10: {
-        title: "Lesson 10: Simple Sentences 💬",
+        title: "Lesson 10: Small Conversation – Teacher & Student",
         description: "Put words together to make sentences!",
         videoSrc: "placeholder change with video links",
         quizzes: [
             {
-                id: 1,
-                question: "Complete: I ___ a student.",
-                options: ["am", "is", "are", "be"],
-                correct: 0
-            },
-            {
-                id: 2,
-                question: "Complete: She ___ playing.",
-                options: ["is", "am", "are", "be"],
-                correct: 0
-            },
-            {
-                id: 3,
-                question: "Complete: We ___ friends.",
-                options: ["is", "am", "are", "be"],
-                correct: 2
-            }
+    id: 1,
+    question: "Teacher says: “Why are you late?” Best student reply is:",
+    options: ["Late bus.", "Because I missed the bus.", "I am late."],
+    correct: 1
+},
+{
+    id: 2,
+    question: "Teacher asks: “Did you do homework?” Correct reply:",
+    options: ["Yes, I have.", "Homework.", "No care."],
+    correct: 0
+},
+{
+    id: 3,
+    question: "Which is polite?",
+    options: ["Give book", "Please give me the book.", "Book now"],
+    correct: 1
+},
+{
+    id: 4,
+    question: "Who is in class with the teacher?",
+    options: ["Student", "Parent", "Driver"],
+    correct: 0
+}
+
         ]
-    }
+    },
+    11: {
+    title: "Lesson 11: Small Conversation – Two Friends",
+    description: "Learn how friends talk politely and kindly!",
+    videoSrc: "placeholder change with video links",
+    quizzes: [
+        {
+            id: 1,
+            question: "Friend: Look at my drawing! You say:",
+            options: ["Wow, it’s nice!", "Go", "Sit"],
+            correct: 0
+        },
+        {
+            id: 2,
+            question: "Friend asks: “How are you?” Correct reply:",
+            options: ["I fine.", "I am fine.", "Fine is."],
+            correct: 1
+        },
+        {
+            id: 3,
+            question: "Which is friendly?",
+            options: ["Don’t talk", "Thank you", "Let’s play."],
+            correct: 2
+        },
+        {
+            id: 4,
+            question: "When friends leave, they say:",
+            options: ["Good night", "Bye", "Sorry"],
+            correct: 1
+        }
+    ]
+}
+
 };
 
 // Initialize the page
