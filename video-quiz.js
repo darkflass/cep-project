@@ -197,8 +197,40 @@ const videoLessons = {
 
         ]
     },
-    7: {
-        title: "Lesson 7: Classroom English",
+        7: {
+    title: "Lesson 7: WH Questions",
+    description: "Learn how to ask questions using who, what, when, where, why, and how",
+    videoSrc: "placeholder change with video links",
+    quizzes: [
+        {
+    id: 1,
+    question: "_____ is in your bag?",
+    options: ["Who", "Where", "What"],
+    correct: 2
+},
+{
+    id: 2,
+    question: "“___ is standing near the door?” Choose the correct word.",
+    options: ["What", "Where", "Who"],
+    correct: 2
+},
+{
+    id: 3,
+    question: "When answer is: “On the table.” Which is the correct question?",
+    options: ["What is the table?", "Who is on the table?", "Where is the book?"],
+    correct: 2
+},
+{
+    id: 4,
+    question: "Choose the correct pair:",
+    options: ["What – place", "Who – thing", "Where – place"],
+    correct: 2
+}
+
+    ]
+},
+    8: {
+        title: "Lesson 8: Classroom English",
         description: "Learn about your eyes, nose, mouth, and more!",
         videoSrc: "placeholder change with video links",
         quizzes: [
@@ -229,8 +261,8 @@ const videoLessons = {
 
         ]
     },
-    8: {
-        title: "Lesson 8: Describing Things (Adjectives)",
+    9: {
+        title: "Lesson 9: Describing Things (Adjectives)",
         description: "Run, jump, dance! Learn action words!",
         videoSrc: "placeholder change with video links",
         quizzes: [
@@ -261,8 +293,8 @@ const videoLessons = {
 
         ]
     },
-    9: {
-        title: "Lesson 9: Feelings & Polite Words",
+    10: {
+        title: "Lesson 10: Feelings & Polite Words",
         description: "Sunny, rainy, or snowy? Learn weather words!",
         videoSrc: "https://player.vimeo.com/video/1160613110",
         quizzes: [
@@ -293,8 +325,8 @@ const videoLessons = {
 
         ]
     },
-    10: {
-        title: "Lesson 10: Small Conversation – Teacher & Student",
+    11: {
+        title: "Lesson 11: Small Conversation – Teacher & Student",
         description: "Put words together to make sentences!",
         videoSrc: "placeholder change with video links",
         quizzes: [
@@ -325,8 +357,8 @@ const videoLessons = {
 
         ]
     },
-    11: {
-    title: "Lesson 11: Small Conversation – Two Friends",
+    12: {
+    title: "Lesson 12: Small Conversation – Two Friends",
     description: "Learn how friends talk politely and kindly!",
     videoSrc: "placeholder change with video links",
     quizzes: [
@@ -355,7 +387,8 @@ const videoLessons = {
             correct: 1
         }
     ]
-}
+},
+
 
 };
 

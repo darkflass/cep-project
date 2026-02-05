@@ -1537,5 +1537,8 @@ body {
   background: linear-gradient(135deg, #1e293b, #020617);
 }
 
+a {
+    text-decoration: none;
+}
 
 
