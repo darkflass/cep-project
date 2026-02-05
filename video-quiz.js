@@ -8,7 +8,7 @@ const videoLessons = {
     1: {
         title: "Lesson 1: Hello and Greetings 👋",
         description: "Learn how to say hello, goodbye, and greet your friends!",
-        videoSrc: "https://player.vimeo.com/video/1160610297" , // YouTube video ID (placeholder)
+        videoSrc: "https://player.vimeo.com/video/1162179869" , // YouTube video ID (placeholder)
         quizzes: [
             {
     id: 1,
@@ -40,7 +40,7 @@ const videoLessons = {
     2: {
         title: "Lesson 2: Framing Sentences",
         description: "Discover all the beautiful colors around you!",
-        videoSrc: "https://player.vimeo.com/video/1160612965",
+        videoSrc: "https://player.vimeo.com/video/1162179981",
         quizzes: [
             {
     id: 1,
@@ -72,7 +72,7 @@ const videoLessons = {
     3: {
         title: "Lesson 3: Colours & Naming Things",
         description: "Count from 1 to 10 and have fun with numbers!",
-        videoSrc: "placeholder change with video links",
+        videoSrc: "https://player.vimeo.com/video/1162180113",
         quizzes: [
             {
     id: 1,
@@ -104,7 +104,7 @@ const videoLessons = {
     4: {
         title: "Lesson 4: Numbers & Simple Sentences",
         description: "Meet all the amazing animals and learn their names!",
-        videoSrc: "placeholder change with video links",
+        videoSrc: "https://player.vimeo.com/video/1162180229",
         quizzes: [
             {
     id: 1,
@@ -136,7 +136,7 @@ const videoLessons = {
     5: {
         title: "Lesson 5: Is / Am / Are",
         description: "Learn words for mom, dad, sister, brother, and more!",
-        videoSrc: "placeholder change with video links",
+        videoSrc: "https://player.vimeo.com/video/1162279382",
         quizzes: [
             {
     id: 1,
@@ -168,7 +168,7 @@ const videoLessons = {
     6: {
         title: "Lesson 6: Daily Action Words (Verbs)",
         description: "Yummy foods and how to say their names in English!",
-        videoSrc: "placeholder change with video links",
+        videoSrc: "https://player.vimeo.com/video/1162180466",
         quizzes: [
             {
     id: 1,
@@ -200,7 +200,7 @@ const videoLessons = {
         7: {
     title: "Lesson 7: WH Questions",
     description: "Learn how to ask questions using who, what, when, where, why, and how",
-    videoSrc: "placeholder change with video links",
+    videoSrc: "https://player.vimeo.com/video/1162279568",
     quizzes: [
         {
     id: 1,
@@ -232,7 +232,7 @@ const videoLessons = {
     8: {
         title: "Lesson 8: Classroom English",
         description: "Learn about your eyes, nose, mouth, and more!",
-        videoSrc: "placeholder change with video links",
+        videoSrc: "https://player.vimeo.com/video/1162180566",
         quizzes: [
             {
     id: 1,
@@ -264,7 +264,7 @@ const videoLessons = {
     9: {
         title: "Lesson 9: Describing Things (Adjectives)",
         description: "Run, jump, dance! Learn action words!",
-        videoSrc: "placeholder change with video links",
+        videoSrc: "https://player.vimeo.com/video/1162180695",
         quizzes: [
             {
     id: 1,
@@ -296,7 +296,7 @@ const videoLessons = {
     10: {
         title: "Lesson 10: Feelings & Polite Words",
         description: "Sunny, rainy, or snowy? Learn weather words!",
-        videoSrc: "https://player.vimeo.com/video/1160613110",
+        videoSrc: "https://player.vimeo.com/video/1162180748",
         quizzes: [
             {
     id: 1,
@@ -328,7 +328,7 @@ const videoLessons = {
     11: {
         title: "Lesson 11: Small Conversation – Teacher & Student",
         description: "Put words together to make sentences!",
-        videoSrc: "placeholder change with video links",
+        videoSrc: "https://player.vimeo.com/video/",
         quizzes: [
             {
     id: 1,
@@ -360,7 +360,7 @@ const videoLessons = {
     12: {
     title: "Lesson 12: Small Conversation – Two Friends",
     description: "Learn how friends talk politely and kindly!",
-    videoSrc: "placeholder change with video links",
+    videoSrc: "https://player.vimeo.com/video/",
     quizzes: [
         {
             id: 1,
