@@ -328,7 +328,7 @@ const videoLessons = {
     11: {
         title: "Lesson 11: Small Conversation – Teacher & Student",
         description: "Put words together to make sentences!",
-        videoSrc: "https://player.vimeo.com/video/",
+        videoSrc: "https://player.vimeo.com/video/1162297875",
         quizzes: [
             {
     id: 1,
@@ -360,7 +360,7 @@ const videoLessons = {
     12: {
     title: "Lesson 12: Small Conversation – Two Friends",
     description: "Learn how friends talk politely and kindly!",
-    videoSrc: "https://player.vimeo.com/video/",
+    videoSrc: "https://player.vimeo.com/video/1162297977",
     quizzes: [
         {
             id: 1,
@@ -520,7 +520,7 @@ function setupVideoQuizListeners() {
                     this.classList.add('incorrect');
                     // Highlight correct answer
                     options[correctAnswer].classList.add('correct');
-                    feedback.innerHTML = '❌ Try again! The correct answer is highlighted. 💪';
+                    feedback.innerHTML = '❌ Try again! The correct answer is highlighted. ';
                     feedback.className = 'video-quiz-feedback incorrect-feedback';
                 }
                 
@@ -550,11 +550,11 @@ function showVideoQuizResults(correct, total) {
         message = 'Excellent work! You\'re doing great! 🎊';
         emoji = '👏';
     } else if (percentage >= 33) {
-        message = 'Good job! Keep practicing and you\'ll get even better! 💪';
+        message = 'Good job! Keep practicing and you\'ll get even better!';
         emoji = '👍';
     } else {
         message = 'Nice try! Watch the video again and try once more! 📚';
-        emoji = '💪';
+        emoji = '';
     }
     
     resultsDiv.innerHTML = `

@@ -135,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function() {
             message = 'Excellent work! You\'re doing great! 🎊';
             emoji = '👏';
         } else if (percentage >= 60) {
-            message = 'Good job! Keep practicing and you\'ll get even better! 💪';
+            message = 'Good job! Keep practicing and you\'ll get even better! ';
             emoji = '👍';
         } else {
             message = 'Nice try! Don\'t give up, keep learning! 📚';

@@ -474,7 +474,7 @@ function setupQuizListeners() {
                     this.classList.add('incorrect');
                     // Highlight correct answer
                     options[correctAnswer].classList.add('correct');
-                    feedback.innerHTML = '❌ Try again! The correct answer is highlighted. 💪';
+                    feedback.innerHTML = '❌ Try again! The correct answer is highlighted.';
                     feedback.className = 'quiz-feedback incorrect-feedback';
                 }
                 
